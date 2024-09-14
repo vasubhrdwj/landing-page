@@ -16,8 +16,8 @@ body {
   justify-content: space-between;
   gap: 60px;
   flex-wrap: wrap;
-  padding-left: 15vw;
-  padding-right: 15vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
   padding-top: 10px;
   background-color: #1f2937;
   font-size: 50px;
@@ -35,6 +35,8 @@ body {
   display: flex;
   gap: 20px;
   font-size: 18px;
+  flex: 1;
+
   color: #e5e7eb;
 }
 .hero-text {
@@ -44,16 +46,18 @@ body {
   flex: 1 1 40%;
   color: #f9faf8;
   gap: 16px;
-  
+
   flex-wrap: wrap;
   align-items: baseline;
 }
 .tt-text {
   font-size: 48px;
+  flex: 1;
   font-weight: 900;
 }
 .text {
   font-size: 18px;
+  flex: 1;
 }
 .tt-signup {
   background-color: #3882f6;
@@ -63,14 +67,47 @@ body {
   padding: 8px 24px 8px;
   border-radius: 8px;
   border: 0;
+  flex: 1;
 }
 
 .tt-img {
   flex: 1 1 30%;
+  flex: 1;
 }
 
 .img-ph {
   padding-left: 50px;
   width: 520px;
+  flex: 1;
   height: 300px;
+}
+
+.image-sect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin: 40px;
+}
+
+.info-header {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.img-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.img-cont {
+  border: 2px solid #3882f6;
+  border-bottom: 8px solid #3882f6;
+}
+
+.pik-img {
+  height: 100px;
+  width: 100px;
 }
