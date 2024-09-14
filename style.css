@@ -174,7 +174,7 @@ body {
 /* Section Four */
 .class-four {
   flex: 1;
-  padding: 80px;
+  padding: 100px;
   padding-left: 10vw;
   padding-right: 10vw;
 }
@@ -183,12 +183,12 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: #3882f6;
-  /* border: 2px solid #3882f6; */
   border-radius: 5px;
   color: #e5e7eb;
   align-items: center;
   padding: 40px;
-  min-width: 70vw;
+  gap: 40px;
+  min-width: 60vw;
 }
 .box-text {
   margin-right: auto;
@@ -215,8 +215,25 @@ body {
   background-color: #3882f6;
   border: 2px solid #f9faf8;
   border-radius: 5px;
-  padding: 5px 30px 5px;
+  padding: 5px 32px 5px;
   color: #f9faf8;
 }
 
 /* Section Four End*/
+
+/* Section Five */
+.class-five {
+  flex: 1;
+  background-color: #1f2937;
+  min-width: 100vw;
+  padding: 32px;
+}
+
+.footer-cpw {
+  color: #f9faf8;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* Section Five End */
