@@ -9,57 +9,68 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+}
+
+/* Section One */
+
+.class-one {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  gap: 100px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  flex: 1;
 }
 
 .header-sect {
   display: flex;
   justify-content: space-between;
-  gap: 60px;
-  flex-wrap: wrap;
-  padding-left: 10vw;
-  padding-right: 10vw;
-  padding-top: 10px;
-  background-color: #1f2937;
+  padding-top: 20px;
   font-size: 50px;
-  padding-bottom: 100px;
+  gap: 30px;
   align-items: center;
+  width: 100%;
 }
 .header-left {
   font-size: 24px;
-  flex: 1 1 45%;
   margin-right: auto;
   color: #f9faf8;
-  font-weight: 700;
+  font-weight: 800;
 }
 .header-right {
   display: flex;
   gap: 20px;
   font-size: 18px;
-  flex: 1;
-
+  margin-left: auto;
   color: #e5e7eb;
 }
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+  align-items: flex-end;
+}
+
+/* Hero Text Section */
 .hero-text {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  flex: 1 1 40%;
   color: #f9faf8;
-  gap: 16px;
-
-  flex-wrap: wrap;
-  align-items: baseline;
+  gap: 15px;
+  max-width: 40%;
+  align-items: flex-start;
 }
-.tt-text {
+.hero-main {
+  color: #e5e7eb;
   font-size: 48px;
-  flex: 1;
   font-weight: 900;
 }
-.text {
+.hero-secondary {
   font-size: 18px;
-  flex: 1;
 }
-.tt-signup {
+.hero-signup {
   background-color: #3882f6;
   font-size: 18px;
   font-weight: 600;
@@ -67,47 +78,145 @@ body {
   padding: 8px 24px 8px;
   border-radius: 8px;
   border: 0;
-  flex: 1;
 }
 
-.tt-img {
-  flex: 1 1 30%;
-  flex: 1;
+/* Hero Text Section End */
+
+/* Hero Image Section */
+
+.hero-img {
+  margin-left: auto;
 }
 
 .img-ph {
   padding-left: 50px;
-  width: 520px;
+  width: 580px;
   flex: 1;
-  height: 300px;
+  height: 280px;
 }
+/* Hero Image Section End */
 
-.image-sect {
+/* Section One End*/
+
+/* Section Two */
+
+.class-two {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
-  margin: 40px;
+  gap: 50px;
+  margin-top: 40px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 80px;
 }
-
+/*  Heading */
 .info-header {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
 }
 
+/* Image Flex Section */
 .img-flex {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   gap: 80px;
 }
 .img-cont {
-  border: 2px solid #3882f6;
-  border-bottom: 8px solid #3882f6;
+  flex: 1;
+  align-self: center;
+  max-width: 150px;
 }
 
 .pik-img {
-  height: 100px;
-  width: 100px;
+  border: 5px solid #3882f6;
+  border-radius: 10%;
+  height: 150px;
+  width: 150px;
 }
+
+.img-subtext {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+/* Section Two End */
+
+/* Section Three Start */
+.class-three {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  background-color: #e5e7eb;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1f2957;
+}
+.creds {
+  margin-top: -20px;
+  font-size: 24px;
+  align-self: flex-end;
+  font-weight: bolder;
+}
+
+/* Section Three End*/
+
+/* Section Four */
+.class-four {
+  flex: 1;
+  padding: 80px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.signup-box {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  /* border: 2px solid #3882f6; */
+  border-radius: 5px;
+  color: #e5e7eb;
+  align-items: center;
+  padding: 40px;
+  min-width: 70vw;
+}
+.box-text {
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-left: 80px;
+}
+.box-title {
+  font-weight: 900;
+  font-size: 24px;
+}
+.box-subtext {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.box-button {
+  padding-right: 80px;
+  margin-left: auto;
+}
+
+.fourth-button {
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  border-radius: 5px;
+  padding: 5px 30px 5px;
+  color: #f9faf8;
+}
+
+/* Section Four End*/
